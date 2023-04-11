@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #222c88, #1f0f57);
+  height: 75px; 
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get The Weather</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div>
+        <aside>
+            <h2>Search for a City:</h2>
+            <input id="searchInput" type="text">
+            <button id="searchBtn">search</button>
+
+            <div id="historyContainer"></div>
+        </aside>
+        <main>
+            <div>
+              <h2>Current Weather:</h2>
+              <p id="city"></p>
+              <p id="temp"></p>
+              <p id="wind"></p>
+              <p id="humidity"></p>
+            </div>
+            <div>
+              <h2>5-Day Forecast:</h2>
+              
+              <div class="forecast-card">
+                <h3>Date</h3>
+                <img src="" alt="Weather Icon">
+                <p>Temperature: </p>
+                <p>Humidity: </p>
+              </div>
+          
+              <div class="forecast-card">
+                <h3>Date</h3>
+                <img src="" alt="Weather Icon">
+                <p>Temperature: </p>
+                <p>Humidity: </p>
+              </div>
+          
+              <!-- Repeat this div for each day in the forecast -->
+          
+            </div>
+          </main>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
